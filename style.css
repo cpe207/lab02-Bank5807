@@ -1,0 +1,47 @@
+.center-header {
+  color: tan;
+  text-align: center;
+  font-style: italic;
+}
+
+.skill-container {
+  border: solid tan;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  margin-bottom: 10px;
+}
+
+.skill-container > h3 {
+  color: tan;
+  font-style: italic;
+}
+
+.exp-container {
+  border: solid green;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  margin-bottom: 10px;
+}
+
+.exp-container > h3 {
+  color: green;
+  font-style: italic;
+}
+
+.contact-container {
+  border: solid skyblue;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  margin-bottom: 10px;
+}
+
+.contact-container > h3 {
+  color: blue;
+  font-style: italic;
+}
