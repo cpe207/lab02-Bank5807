@@ -13,24 +13,138 @@
     <title>My Portfolio</title>
   </head>
   <body>
-    <h2 class="center-header">My Portfolio</h2>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="/lab02-Bank5807/index.html"
+          >My Portfolio</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/lab02-Bank5807/index.html"> Home</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/lab02-Bank5807/experience.html"
+                >Experience</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/lab02-Bank5807/gallery.html"
+                >Gallery</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/lab02-Bank5807/contact.html"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--
     <p style="text-align: center; margin-right: 5px">
       <a href="/lab02-Bank5807/index.html">Home</a>
       |
       <a href="/lab02-Bank5807/experience.html">Experience</a>
       |
+      <a href="/lab02-Bank5807/gallery.html">Gallery</a>
+      |
       <a href="/lab02-Bank5807/contact.html">Contact Me</a>
     </p>
-    <img
-      src="images/profile.jpeg"
-      style="margin-left: auto; display: block; margin-right: auto"
-    />
-    <h3 class="center-header">Tanat Wipasakunden 620610787</h3>
-    <p style="text-align: center">
-      Hi! Nice To Meet You! My Name is Tanat Wipasakunden. Even if I'm late to
-      study Basic Computer Lab, but I'm ready to meet with all of you and study
-      together with you.
-    </p>
+  -->
+    <div
+      class="d-flex justify-content-center align-items-center mx-auto gap-3"
+      style="max-width: 700px"
+    >
+      <div>
+        <img
+          src="images/profile.jpeg"
+          class="rounded-circle"
+          width="200"
+          height="200"
+          style="object-fit: cover"
+        />
+      </div>
+      <!--
+<img
+  src="images/profile.jpeg"
+  style="margin-left: auto; display: block; margin-right: auto"
+/>
+-->
+      <div class="d-none d-sm-block">
+        <div class="display-5 mb-1">Tanat Wipasakunden</div>
+        <div class="display-6 mb-3">620610787</div>
+        <div class="text-muted">
+          Hi! Nice To Meet You! My Name is Tanat Wipasakunden. Even if I'm late
+          to study Basic Computer Lab, but I'm ready to meet with all of you and
+          study together with you.
+        </div>
+      </div>
+    </div>
+    <div class="display-5 d-sm-none text-center my-3">Tanat Wipasakunden</div>
+    <div class="display-6 d-sm-none text-center my-3">620610787</div>
+    <!--
+<h3 class="center-header">Tanat Wipasakunden 620610787</h3>
+<p style="text-align: center">
+  Hi! Nice To Meet You! My Name is Tanat Wipasakunden. Even if I'm late to
+  study Basic Computer Lab, but I'm ready to meet with all of you and study
+  together with you.
+</p>
+-->
+    <p class="text-center fs-3">My Experience</p>
+    <div style="max-width: 700px" class="mx-auto px-3">
+      <div class="d-flex border mb-3 shadow-sm my-rounded-all">
+        <div class="my-rounded-left">
+          <img
+            src="images/internment.png"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="my-rounded-left d-none d-sm-block"
+          />
+        </div>
+        <div class="p-4">
+          <p class="fw-semibold fs-5">Internment</p>
+          <span class="text-muted">
+            I have Internment Experience in the summer.
+          </span>
+        </div>
+      </div>
+
+    <div style="max-width: 700px" class="mx-auto px-3">
+      <div class="d-flex border mb-3 shadow-sm my-rounded-all">
+        <div class="my-rounded-left">
+          <img
+            src="images/hobbies.png"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="my-rounded-left d-none d-sm-block"
+          />
+        </div>
+        <div class="p-4">
+          <p class="fw-semibold fs-5">Hobbies</p>
+          <span class="text-muted">
+            Playing Video Games, Watching Movies, and Listening to the Musics.
+          </span>
+        </div>
+      </div>
+    <!--
     <h3 class="center-header" style="color: green">My Experience</h3>
     <div class="exp-container">
       <h3>Internment</h3>
@@ -40,5 +154,5 @@
       <h3>Hobbies</h3>
       <p>Playing Video Games, Watching Movies, and Listening to the Musics.</p>
     </div>
-  </body>
+  --></body>
 </html>
