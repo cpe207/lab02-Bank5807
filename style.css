@@ -1,5 +1,5 @@
 .center-header {
-  color: tan;
+  color: black;
   text-align: center;
   font-style: italic;
 }
@@ -61,4 +61,20 @@
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+}
+
+.bg-skill-color {
+  background-color: #c6b155;
+}
+
+.bg-exp-color {
+  background-color: #00ae09;
+}
+
+.bg-gallery-color {
+  background-color: #00d9ff;
+}
+
+.bg-contact-color {
+  background-color: #000dff;
 }
